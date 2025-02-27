@@ -1,0 +1,12 @@
+streamlit
+yfinance==0.2.54
+plotly
+datetime
+newsapi-python
+pandas
+numpy
+transformers
+torch
+nltk
+xgboost
+yahooquery
