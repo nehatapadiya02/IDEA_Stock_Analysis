@@ -11,3 +11,4 @@ nltk
 xgboost
 yahooquery
 pickle5
+scikit-learn
