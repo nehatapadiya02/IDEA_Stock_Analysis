@@ -10,3 +10,4 @@ torch
 nltk
 xgboost
 yahooquery
+pickle5
