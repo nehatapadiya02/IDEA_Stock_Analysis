@@ -197,7 +197,9 @@ with news:
     )
     hindi_keyword = hindi_ticker_dict.get(selected_ticker)
     params = {
-        "q": hindi_keyword,
+        "qintitle": hindi_keyword,
+        "from_param": today - timedelta(days=25),
+        "to":today,
         "language": "hi",
         "sortBy": "publishedAt",
         "pageSize": 10,
